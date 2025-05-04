@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "src": "/api/proxy",
+      "middlewarePath": "middleware/proxy"
+    }
+  ],
+  "edge_functions": {
+    "middleware/proxy": {
+      "regions": ["iad1"]
+    }
+  }
+}
