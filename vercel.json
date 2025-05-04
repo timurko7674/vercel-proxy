@@ -1,7 +1,7 @@
 {
-  "regions": ["iad1"],  // iad1 = US East (Virginia)
   "functions": {
     "api/proxy.js": {
+      "regions": ["iad1"],
       "memory": 128,
       "maxDuration": 10
     }
