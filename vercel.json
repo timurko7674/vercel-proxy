@@ -1,9 +1,0 @@
-{
-  "functions": {
-    "api/proxy.js": {
-      "regions": ["iad1"],
-      "memory": 128,
-      "maxDuration": 10
-    }
-  }
-}
